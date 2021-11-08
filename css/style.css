@@ -1,0 +1,33 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+#ceu{
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/ceu3.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+#hud{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  background: rgba(255,255,255, 0.5);
+}
+
+.balao{
+  position: absolute;
+  left: 500px;
+  top: 500px;
+  width: 100px;
+  height: 200px;
+  background-image: url(../img/peppa.png);
+  background-size: 100% 100%;
+}
